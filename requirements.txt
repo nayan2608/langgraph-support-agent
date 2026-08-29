@@ -1,0 +1,9 @@
+langgraph
+langchain
+python-dotenv
+
+# Common provider integrations. Keep only the providers you need.
+# langchain-openai
+# langchain-anthropic
+langchain-google-genai
+# langchain-groq
