@@ -29,3 +29,5 @@ workflow.add_conditional_edges(
 workflow.add_edge("draft_response", "finalize_response")
 workflow.add_edge("escalate_ticket", END)
 workflow.add_edge("finalize_response", END)
+
+graph = workflow.compile()
